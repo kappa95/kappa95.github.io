@@ -18,6 +18,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
+    color (1.8)
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
@@ -57,6 +58,8 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
+    geo_pattern (1.4.0)
+      color (~> 1.5)
     github-pages (223)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
@@ -286,6 +289,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 2.2.10)
+  geo_pattern
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.2)

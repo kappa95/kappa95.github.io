@@ -22,6 +22,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 gem "github-pages", group: :jekyll_plugins
+# Aggiungo per cambiare un po' headers
+gem "geo_pattern"
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
